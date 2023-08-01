@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#main{
+
+
+}
+
+
+#header{
+    
+    height: 46px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+#nav {
+    display: inline-block;
+}
+#nav, .subnav {
+    list-style: none;
+
+}
+
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+    
+    position: relative;
+}
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 24px;
+    display: block;
+    line-height: 46px;
+   
+}
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+
+}
+
+#nav li:hover .subnav{
+    display: block;
+
+}
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+ }
+ #nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+ }
+ #nav .subnav:hover a {
+     position: relative;
+    background-color: #fff;
+ }
+
+
+#nav .nav-ti {
+    font-size: 12px;
+}
+
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+    cursor: pointer;
+}
+#header .search-icon {
+    color:#fff;
+    font-size: 26px;
+    line-height: 46px;
+
+
+}
+#header .search-btn :hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+#slider{
+    margin-top:0px;
+    padding-top: 50%;
+    background: url('/assets/img/pic3.jpg'); height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+#header .navbar_2 {
+    
+    width: 15%;
+    height: 100vh;
+    background-color:#280808;
+    text-align: center; 
+    
+}
+
+#header .navbar_2 > img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;   
+    color: aquamarine;
+    text-align: justify;
+}
+#header .navbar_2 >ul {
+    text-align: center;
+    margin-top: 60%;
+    margin-bottom: 50%;
+    
+}   
+
+
+
+#header .navbar_2 >ul >li {
+    text-align: center;
+    margin-top: 100px;
+    
+
+}
+#header .navbar_2 > ul>li:hover a {
+   
+    color: aquamarine;
+}
+
+#header .navbar_2 .name {
+    text-align: center;
+    color: #fff;
+
+}
+
+
+#slider .text-heading {
+    position: absolute;
+    bottom: 50%;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#slider .text-description   {
+    position: absolute;
+    bottom: 40%;
+    color: #fff;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+}
+#liders .text-description:hover {
+    color: aquamarine;
+}
+
+#slider h2 {
+    
+}
+#slider p {
+
+
+}
+
+#content{
+    margin-top: 30px;
+    margin-left: 15%;
+   height: 100vh;
+   align-items: center;
+   background: url('/assets/img/pic5.webp'); 
+   background-size:cover;
+   background-repeat: no-repeat;
+
+}
+
+#content .content__img {
+    margin-top:0px;
+    padding-top: 50%;
+
+    
+    
+}
+#content .text-heading {
+    display: contents;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+#section {
+    height: 100vh;
+    display: grid;
+    padding-left: 20%;
+    background-color:rgba(4, 39, 46, 0.3);
+    justify-content: space-between;
+    
+}
+
+#section .WhatIdo {
+    margin-top: 30px;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#section .ti-palette {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+#section .ti-palette,
+.ti-ruler-pencil,
+.ti-image,
+.ti-desktop,
+.ti-pencil-alt2,
+.ti-announcement {
+    color: aliceblue;
+    border: solid 1px;
+    width: 200px;
+    height: 86;
+    text-align: center;
+    font-size: 30px;
+    size-adjust: 2000px;
+}
+#section > .text_1 {
+   
+    text-align: center;
+} 
+#section .text_2 {
+    
+}
+
+    
+
+  
+
+    
+ 
+
+   
+    
+#footer{
+    height:1000vh;
+}
+
