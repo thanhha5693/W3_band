@@ -9,24 +9,17 @@ html{
     
 
 }
-
-#main{
-
-
-}
-
-
-#header{
-    
+#header{  
     height: 46px;
     background-color: black;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
 
 }
 #nav {
-    display: inline-block;
+    
+    display: block;
 }
 #nav, .subnav {
     list-style: none;
@@ -93,22 +86,6 @@ html{
     font-size: 12px;
 }
 
-#header .search-btn {
-    float: right;
-    padding: 0 21px;
-    cursor: pointer;
-}
-#header .search-icon {
-    color:#fff;
-    font-size: 26px;
-    line-height: 46px;
-
-
-}
-#header .search-btn :hover{
-    color: aquamarine;
-    cursor: pointer;
-}
 #slider{
     margin-top:0px;
     padding-top: 50%;
@@ -119,8 +96,8 @@ html{
 }
 #header .navbar_2 {
     
-    width: 15%;
-    height: 190vh;
+    width: 25%;
+    height: 100vh;
     background-color:#0a0202;
     text-align: center; 
     
@@ -159,14 +136,14 @@ html{
 
 }
 
-
-#slider .text-heading {
+#slider .text-heading { 
     position: absolute;
     bottom: 50%;
     color: #fff;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    
 }
 
 #slider .text-description   {
@@ -192,8 +169,7 @@ html{
 }
 
 #content{
-    margin-top: 30px;
-    margin-left: 15%;
+  margin-left: 11%;
    height: 100vh;
    align-items: center;
    background: url('/assets/img/pic5.webp'); 
@@ -203,13 +179,14 @@ html{
 }
 
 #content .content__img {
+  
     margin-top:0px;
     padding-top: 50%;
 
     
     
 }
-#content .text-heading {
+#content .text__heading {
     display: contents;
     position: absolute;
     color: #fff;
@@ -220,6 +197,7 @@ html{
     
 }
 #section {
+    
     height: 100vh;
     display: grid;
     padding-left: 20%;
@@ -260,16 +238,7 @@ html{
 #section .text_2 {
     
 }
-
-    
-
   
-
-    
- 
-
-   
-    
 #footer{
     height:1000vh;
 }
@@ -277,9 +246,11 @@ html{
 
 
 #summary {
-  
-  margin-left: 15%;
+  margin-left: 10%;
   background-color: rgb(71, 101, 91);
+}
+#summary .text__overlap{
+  text-align:justify
 }
 
 .summary__Container {
@@ -305,7 +276,7 @@ html{
 }
 
 .resume__title {
-  color: var(--mainTitle__color);
+  /* color: var(--mainTitle__color); */
   font-size: 24px;
   margin-bottom: 24px;
 }
@@ -313,13 +284,13 @@ html{
 .resume__card {
   border-radius: 4px;
   border: 1px solid #dee2e6;
-  background-color: var(--white__color);
+  /* background-color: var(--white__color); */
   padding: 24px;
   margin-bottom: 24px;
 }
 
 .card__year {
-  background-color: var(--button__color);
+  /* background-color: var(--button__color); */
   color: var(--white__color);
   padding: 4.9px 9.1px;
   margin-bottom: 16px;
@@ -331,19 +302,19 @@ html{
 }
 
 .card__title {
-  color: var(--mainTitle__color);
-  font-size: 21px;
+ 
+  font-size: 21px; 
   margin-bottom: 8px;
 }
 
 .card__subtitle {
-  color: var(--secondText__color);
+ 
   font-size: 16px;
   margin-bottom: 16px;
 }
 
 .skills__title {
-  color: var(--mainTitle__color);
+  
   margin: 24px 0;
   font-size: 24px;
   display: block;
@@ -353,7 +324,7 @@ html{
 
 .bar__label,
 .bar__label--perc {
-  color: var(--titleOL__color);
+ 
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 8px;
@@ -390,9 +361,8 @@ html{
 .progressValue__react,
 .progressValue__angular,
 .progressValue__bootstrap {
-  box-shadow: 0 10px 40px -10px var(--white__color);
+  
   border-radius: 4px 0px 0px 4px;
-  background: var(--button__color);
   height: 10px;
   width: 0;
 }
@@ -492,8 +462,8 @@ html{
   margin-top: 48px;
   cursor: pointer;
   color: #6c6c6c;
-  background-color: var(--white__color);
-  border: 2px solid var(--number__color);
+  
+  border: 2px solid 
   padding: 12.8px 41.6px;
   font-size: 16px;
   font-weight: 500;
